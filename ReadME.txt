@@ -1,8 +1,8 @@
 The command structure to run this project is 
 
-dijkstra-pathplanning-Thomas-Birney.py start_row,start_col goal_row,goal_col padding
+$ python3 dijkstra-pathplanning-Thomas-Birney.py start_row,start_col goal_row,goal_col padding
 
-example: dijkstra-pathplanning-Thomas-Birney.py 100,50 210,50 5
+example: $ python3 dijkstra-pathplanning-Thomas-Birney.py 100,60 210,50 5
 
 The origin is the bottom left hand corner of the board.
 
@@ -12,7 +12,7 @@ and will be defaultly set to have a padding of 5. It also important to note that
 must be within the bounds of the board as well as not point to an obstacle or padded cell.
 
 If all paramters are valid, then the program will create the board, search through it, and animate the search
-pattern as well as the shorest path from start to goal.
+pattern as well as the shorest path from start to goal. The animation file will be called "search.avi"
 
 Black is unexplored
 White is explored
