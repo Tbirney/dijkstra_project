@@ -5,7 +5,7 @@ $ python3 dijkstra-pathplanning-Thomas-Birney.py start_row,start_col goal_row,go
 example: $ python3 dijkstra-pathplanning-Thomas-Birney.py 100,60 210,50 5
 
 The origin is the bottom left hand corner of the board. And corrdinates are zero indexed. So the highest
-corrdinate possible is 250,399.
+corrdinate possible is 249,399.
 
 Make sure there are no spaces except for in between arguments. Start location and goal location paramters are
 required, but the padding paramter is optional. It can be specified as a positive number, or it can be unspecified 
